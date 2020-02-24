@@ -1,0 +1,14 @@
+ERROR: Freeing Memory Not Allocated  Pool [0x7f91a5f1dfa0] Value [0x7f919a0be260] WM Reb Pool:HOST    .
+Traceback for Thread [0x7f91a3fa4ae0] WM Reb Pool:HOST     
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(reportMemoryError+0xe4) [0x7f91a44d7d64]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(skmMemRelease+0x41d) [0x7f91a44d2f3d]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(hx_pipe_close+0x116) [0x55b831a0f396]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(vx_pipe_close+0x1d) [0x55b831a04fdd]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(+0x79996) [0x55b8319ea996]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(+0x84a4b) [0x55b8319f5a4b]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(+0x432b7) [0x55b8319b42b7]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(+0x400ce) [0x55b8319b10ce]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(+0x3fbe5) [0x55b8319b0be5]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(vvtentr+0x13f) [0x55b8319bf80f]
+/lib64/libpthread.so.0(+0x7aa1) [0x7f91a5a2eaa1]
+/lib64/libc.so.6(clone+0x6d) [0x7f91a50bcc4d]

@@ -1,0 +1,23 @@
+ERROR: Freeing Memory Not Allocated  Pool [0x7feca937c0c0] Value [0x7fec780a7360] WM Reb Pool:Kernel  .
+Traceback for Thread [0x7feca73b3ae0] WM Reb Pool:Kernel   
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(reportMemoryError+0xe4) [0x7feca78e6d64]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(skmMemRelease+0x41d) [0x7feca78e1f3d]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sase7yse(treedel+0x311) [0x7fec8ce737f1]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sase7yse(yseclos+0x3f3) [0x7fec8ce6d343]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sasyys(yysclos+0x2bd) [0x7fec8d09319d]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sasods(odsdels+0x3b) [0x7fec86d41a8b]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sassgplo(sassgplo+0xca30) [0x7fec53d37650]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(vvtentr+0x18a) [0x5610507fa85a]
+/lib64/libpthread.so.0(+0x7aa1) [0x7feca8e3daa1]
+/lib64/libc.so.6(clone+0x6d) [0x7feca84cbc4d]ERROR: Freeing Memory Not Allocated  Pool [0x7feca937c0c0] Value [0x7fec780a7360] WM Reb Pool:Kernel  .
+Traceback for Thread [0x7feca73b3ae0] WM Reb Pool:Kernel   
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(reportMemoryError+0xe4) [0x7feca78e6d64]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/tkmk.so(skmMemRelease+0x41d) [0x7feca78e1f3d]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sase7yse(treedel+0x311) [0x7fec8ce737f1]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sase7yse(yseclos+0x3f3) [0x7fec8ce6d343]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sasyys(yysclos+0x2bd) [0x7fec8d09319d]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sasods(odsdels+0x3b) [0x7fec86d41a8b]
+/opt/sasinside/SASHome/SASFoundation/9.4/dbcs/sasexe/sassgplo(sassgplo+0xca30) [0x7fec53d37650]
+/opt/sasinside/SASHome/SASFoundation/9.4/sasexe/sas(vvtentr+0x18a) [0x5610507fa85a]
+/lib64/libpthread.so.0(+0x7aa1) [0x7feca8e3daa1]
+/lib64/libc.so.6(clone+0x6d) [0x7feca84cbc4d]
